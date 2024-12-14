@@ -1,5 +1,29 @@
 # SmartDocRAG
 
+This project integrates Llama 3 with LlamaIndex and Streamlit to build a Retrieval-Augmented Generation (RAG) system. The goal is to enhance Llama 3's ability to generate accurate and context-aware responses by incorporating external knowledge through a robust retrieval mechanism.
+
+### Key Features
+
+- Knowledge Retrieval with LlamaIndex
+  LlamaIndex serves as the backbone for indexing and retrieving relevant information from structured and unstructured data sources. It ensures the model is provided with precise context to generate accurate and informed responses.
+
+- Advanced Generation with Llama 3
+  By combining retrieved context with user queries, Llama 3 delivers high-quality, contextually enriched answers. Careful prompt engineering ensures seamless integration between the retrieval and generation components.
+
+- Interactive UI with Streamlit
+  A sleek and intuitive interface built with Streamlit allows users to input queries, view results, and analyze retrieved documents. The interface prioritizes usability and responsiveness for an enhanced user experience.
+
+### How It Works
+
+- Data Indexing:
+  Use LlamaIndex to preprocess and index your data. The system supports various data formats, making it adaptable to different datasets.
+
+- Retrieval and Augmentation:
+  For each user query, LlamaIndex retrieves the most relevant data, which is then passed to Llama 3 for contextual understanding.
+
+- Interactive Querying:
+  Streamlit provides a front-end interface where users can interact with the system, submit queries, and receive insightful responses augmented by retrieved knowledge.
+
 ## Prerequisites
 
 - Python 3.10 or higher
