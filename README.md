@@ -77,3 +77,15 @@ pip install streamlit
 ```bash
 streamlit run app.py
 ```
+
+## Output
+
+### Screenshots
+
+![image](https://github.com/user-attachments/assets/3e5dc98f-6d3f-4c4e-9ab4-d4b45c8efcd6)
+
+![image](https://github.com/user-attachments/assets/e42aff8a-d1b5-47a8-9189-89ade7bf8c94)
+
+### Demo
+
+https://github.com/user-attachments/assets/a6ad1781-4bc1-431a-b519-52b41e3a7de9
