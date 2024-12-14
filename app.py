@@ -26,7 +26,7 @@ session_id = st.session_state.id
 @st.cache_resource
 def load_llm():
     """Load the Llama model with specified parameters."""
-    return Ollama(model="llama3.2:1b", request_timeout=360.0)
+    return Ollama(model="llama3.2", request_timeout=360.0)
 
 
 # Reset Chat
